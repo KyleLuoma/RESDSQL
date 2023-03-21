@@ -1,0 +1,56 @@
+[
+    {
+        "column_names": [
+            [
+                -1,
+                "*"
+            ],
+            [
+                0,
+                "id"
+            ],
+            [
+                1,
+                "id"
+            ]
+        ],
+        "column_names_original": [
+            [
+                -1,
+                "*"
+            ],
+            [
+                0,
+                "Id"
+            ],
+            [
+                1,
+                "Id"
+            ]
+        ],
+        "column_types": [
+            "text",
+            "number",
+            "number"
+        ],
+        "db_id": "perpetrator",
+        "foreign_keys": [
+            [
+                1,
+                2
+            ]
+        ],
+        "primary_keys": [
+            1,
+            2
+        ],
+        "table_names": [
+            "R",
+            "S"
+        ],
+        "table_names_original": [
+            "R",
+            "S"
+        ]
+    }
+]

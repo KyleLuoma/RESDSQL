@@ -1,0 +1,8 @@
+*.zip
+database/
+__pycache__/
+data/diagnosic-robustness-text-to-sql
+data/spider
+data/spider-dk
+data/spider-realistic
+data/spider-syn

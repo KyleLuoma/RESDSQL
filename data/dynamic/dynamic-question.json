@@ -1,0 +1,35 @@
+[
+    {
+        "db_id": "academic",
+        "query": "not required for evaluation",
+        "query_toks": [
+            "not",
+            "required",
+            "for",
+            "evaluation"
+        ],
+        "query_toks_no_value": [
+            "not",
+            "required",
+            "for",
+            "evaluation"
+        ],
+        "question": "which authors have publications in more than one journal?",
+        "question_toks": [
+            "which", "authors", "have", "publications", "in", "more", "than", "one", "journal", "?"
+        ],
+        "sql": {
+            "from": {},
+            "select": [],
+            "where": [],
+            "groupBy": [],
+            "orderBy": [],
+            "having": [],
+            "limit": null,
+            "intersect": null,
+            "union": null,
+            "except": null,
+            "db_id": "academic"
+          }
+    }
+]

@@ -22,6 +22,14 @@ fi
 
 model_name="resdsql_$1_natsql"
 
+if [ $2 = "dynamic"]
+then
+    table_path="./data/dynamic/tables.json"
+    input_dataset_path="./data/dynamic/dynamic-question.json"
+    db_path="./database"
+    output="./predictions/dynamic/answer.sql"
+elif
+
 if [ $2 = "spider" ]
 then
     # spider's dev set
