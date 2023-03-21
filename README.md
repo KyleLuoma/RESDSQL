@@ -4,6 +4,7 @@
     <br>
 <p>
 
+    
 # RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
 This is the official implementation of the paper "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL" (AAAI 2023).
 
