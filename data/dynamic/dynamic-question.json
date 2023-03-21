@@ -19,7 +19,15 @@
             "which", "authors", "have", "publications", "in", "more", "than", "one", "journal", "?"
         ],
         "sql": {
-            "from": {},
+            "from": {
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ],
+                "conds": []
+            },
             "select": [],
             "where": [],
             "groupBy": [],

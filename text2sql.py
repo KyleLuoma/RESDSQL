@@ -330,15 +330,15 @@ def _test(opt):
     end_time = time.time()
     print("Text-to-SQL inference spends {}s.".format(end_time-start_time))
     
-    if opt.mode == "eval":
-        # initialize evaluator
-        evaluator = EvaluateTool()
-        evaluator.register_golds(opt.original_dev_filepath, opt.db_path)
-        spider_metric_result = evaluator.evaluate(predict_sqls)
-        print('exact_match score: {}'.format(spider_metric_result["exact_match"]))
-        print('exec score: {}'.format(spider_metric_result["exec"]))
+    # if opt.mode == "eval":
+    #     # initialize evaluator
+    #     evaluator = EvaluateTool()
+    #     evaluator.register_golds(opt.original_dev_filepath, opt.db_path)
+    #     spider_metric_result = evaluator.evaluate(predict_sqls)
+    #     print('exact_match score: {}'.format(spider_metric_result["exact_match"]))
+    #     print('exec score: {}'.format(spider_metric_result["exec"]))
     
-        return spider_metric_result["exact_match"], spider_metric_result["exec"]
+    #     return spider_metric_result["exact_match"], spider_metric_result["exec"]
     
 if __name__ == "__main__":
     opt = parse_option()

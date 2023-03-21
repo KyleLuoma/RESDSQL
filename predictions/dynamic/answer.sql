@@ -1,0 +1,1 @@
+select author.name from writes join author on writes.aid = author.aid join publication on writes.pid = publication.pid join journal on publication.jid = journal.jid  group by author.name having  count(*) > 1

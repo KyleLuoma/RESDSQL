@@ -1,5 +1,7 @@
 *.zip
 database/
+models/
+third_party/
 __pycache__/
 data/diagnosic-robustness-text-to-sql
 data/spider
